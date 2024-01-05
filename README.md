@@ -25,7 +25,7 @@ The task for this WC is explained in the accompanying prompt which is to be comp
 
 # Deadline and discussion
 
-The deadline is mention on Canvas.
+The deadline is mentioned on Canvas.
 
 For discussion on the WC, please use the related Canvas discussion thread.
 
