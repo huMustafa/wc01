@@ -33,6 +33,13 @@
 
 \begin{solution}
     % Enter your solution here.
+    (a)
+    To identify the faulty apple in no more than 3 tricorder scans, Dr. Crusher can use a strategy called "binary search" Here's how she can do it:
+    Divide the bunch of 5 apples into two groups: Group A and Group B, each containing 2 apples, with 1 apple left aside.
+    Scan Group A with the tricorder. If the tricorder indicates that Group A contains the faulty apple, take one apple from Group A and scan it with the tricorder. If the scanned apple is faulty, then it is the faulty apple in the bunch. If the scanned apple is not faulty, the remaining apple in Group A must be the faulty apple. Otherwise, the faulty apple must be in Group B.
+    Now, take the 2 apples from Group B and scan them together with the remaining apple that was left aside. If the tricorder indicates that the bunch contains a faulty apple, the faulty apple is the one that was left aside. Otherwise, the faulty apple is one of the two apples from Group B. \\
+    (b) To guarantee finding the single faulty apple in a bunch of size n, Dr. Crusher needs to perform a minimum of log2(n) scans. This can be justified using the concept of binary search.
+    In each scan, Dr. Crusher divides the bunch of apples into two equal sized groups and scans one of the groups. By doing so, she eliminates half of the remaining apples as potential faulty ones in each scan.
 \end{solution}
 
 \end{questions}
